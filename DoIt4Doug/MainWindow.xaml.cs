@@ -20,9 +20,18 @@ namespace DoIt4Doug
     /// </summary>
     public partial class MainWindow : Window
     {
+        int a = 0;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            if(a == 0)
+            {
+                Console.WriteLine("whatup Tim");
+            }
         }
     }
 }
