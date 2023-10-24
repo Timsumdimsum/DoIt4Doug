@@ -30,9 +30,7 @@ namespace DoIt4Doug
         {
             if(a == 0)
             {
-                //test
                 Console.WriteLine("whatup Tim");
-                //Right Back Atcha :)
             }
         }
     }
