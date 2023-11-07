@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EEIP">
-      <HintPath>..\..\..\..\Downloads\EEIP.dll</HintPath>
+      <HintPath>outRef\EEIP.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
