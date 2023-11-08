@@ -12,26 +12,50 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Sres.Net.EEIP;
+using System.ComponentModel;
+using System.Threading;
+
 
 namespace DoIt4Doug
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
+    
+
+
     public partial class MainWindow : Window
     {
-        int a = 0;
+        static string[] tagsFile;
+        static int tagIndex = 0;
+        static string currentTag = "";
+        static bool isRemote = false;
+        static string controllerType = "";
+        static string ipAddress;
+        EIPDataHandler handler = new EIPDataHandler();
+        //add Components
+
+
+
+        List<Sres.Net.EEIP.Encapsulation.CIPIdentityItem> CIPList;
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void getDataBtn_Click(object sender, RoutedEventArgs e)
         {
-            if(a == 0)
+            ipAddress = ipAddressTxtBx.Text;
+
+            try
             {
-                Console.WriteLine("whatup Tim");
+                handler.Connect(ipAddress);
             }
+            catch { Console.WriteLine("connection failed"); }
         }
     }
 }

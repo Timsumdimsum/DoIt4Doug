@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.34031.81
+VisualStudioVersion = 16.0.33927.289
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoIt4Doug", "DoIt4Doug\DoIt4Doug.csproj", "{C754C776-8E56-4758-924E-6A0271DDF8E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoIt4Doug", "DoIt4Doug\DoIt4Doug.csproj", "{3F5F3514-A375-4346-BF1D-FADE3E4AE879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C754C776-8E56-4758-924E-6A0271DDF8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C754C776-8E56-4758-924E-6A0271DDF8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C754C776-8E56-4758-924E-6A0271DDF8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C754C776-8E56-4758-924E-6A0271DDF8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5F3514-A375-4346-BF1D-FADE3E4AE879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5F3514-A375-4346-BF1D-FADE3E4AE879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5F3514-A375-4346-BF1D-FADE3E4AE879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5F3514-A375-4346-BF1D-FADE3E4AE879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6AFAC129-55E8-444E-9426-5DDACE84F7EE}
+		SolutionGuid = {DA7CD607-8EB7-4C20-9BFC-0CF58D4FF6C2}
 	EndGlobalSection
 EndGlobal

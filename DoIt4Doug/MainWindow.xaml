@@ -8,9 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="681*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="29,27,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="getDataBtn" Content="Button" Grid.Column="2" HorizontalAlignment="Left" Margin="37,128,0,0" VerticalAlignment="Top" Width="74" Click="getDataBtn_Click"/>
+        <TextBox x:Name="ipAddressTxtBx" Grid.Column="2" HorizontalAlignment="Left" Height="22" Margin="37,74,0,0" TextWrapping="Wrap" Text="192.168.0.10" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
